@@ -23,6 +23,10 @@ def main():
 	else:
 		path = bfs(url)
 	if bfs != None:
+		print()
+		print("Длина пути: ")
+		print()
+		print("Путь: ")
 		for i in path:
 			print(title_vorovalka(i))
 	else:
